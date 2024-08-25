@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hw3-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hw3-deployment
+  template:
+    metadata:
+      labels:
+        app: hw3-deployment
+    spec:
+      containers:
+      - name: hw3-deployment
+        image: vasfidogan/hw3-deployment
+        ports:
+        - containerPort: 3000
+
