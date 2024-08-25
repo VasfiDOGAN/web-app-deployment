@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS ve Linux
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Docker
+*.env
+.env.*
+.dockerignore
+
+# Kubernetes
+*.kube
+*.yaml.swp
+*.yaml~
+logs/
+*.log
+*.out
+tmp/
+
